@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover {
+    color: #0066cc;
+}
+.link {
+    background-color: #264653;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.link li {
+    list-style-type: none;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link a:hover {
+    color: #f4a261;
+    text-decoration: underline;
+}
+
+.link a:active {
+    color: green;  
+}
+.conteinar {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.tital h1, .tital h2, .tital h3 {
+    color: #333;
+}
+
+.tital h1 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.tital h2 {
+    font-size: 30px;
+}
+
+.tital h3 {
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+}
+figure img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+blockquote {
+    background-color: #f9f9f9;
+    border-left: 4px solid #0066cc;
+    padding: 10px;
+    margin: 15px 0;
+}
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffcc00;
+}
+
+footer a:hover {
+    color: #ff9900;
+}
+.rendom details {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rendom details summary {
+    font-size: 18px;
+    font-weight: bold;
+}
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
+.link a:hover {
+    color: #f4a261;
+    text-decoration: underline;
+}
+.link a:active {
+    color: green;  
+}
+blockquote:hover {
+    background-color: #16d8d8; 
+}
+footer a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.link a:focus {
+    outline: 2px solid #e76f51;
+    outline-offset: 4px;
+}
+h2::selection{
+    background-color: violet;
+}
+@media (max-width: 768px) {
+    .link li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .conteinar {
+        padding: 10px;
+    }
+
+    .tital h1 {
+        font-size: 28px;
+    }
+
+    .tital h2 {
+        font-size: 24px;
+    }
+
+    .tital h3 {
+        font-size: 20px;
+    }
+
+    figure img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .link {
+        padding: 15px 0;
+    }
+
+    .link a {
+        font-size: 16px;
+    }
+
+    .tital h1 {
+        font-size: 24px;
+    }
+
+    .tital h2 {
+        font-size: 20px;
+    }
+
+    .tital h3 {
+        font-size: 18px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: 10px;
+    }
+}

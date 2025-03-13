@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+h3 {
+    font-style: italic;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+    text-align: justify;
+}
+
+.blockquote {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+li {
+    margin: 10px 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+a:hover {
+    color: #004499;
+}
+.link {
+    background-color: #264653;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.link li {
+    list-style-type: none;
+    margin: 0 20px;
+    display: inline-block;
+}
+
+.link a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.link a:hover {
+    color: #f4a261;
+    text-decoration: underline;
+}
+
+.link a:active {
+    color: green;  
+}
+.conteinar {
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tital {
+    margin-bottom: 20px;
+}
+figure img {
+    width: 50%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 12px grey;
+}
+
+.under {
+    text-align: center;
+    font-style: italic;
+    color: #777;
+}
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
+.footer a {
+    color: #f1f1f1;
+}
+figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+figure img:hover {
+    transform: scale(1.05);
+}
+@media screen and (max-width: 768px) {
+    .link li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .conteinar {
+        width: 95%;
+        padding: 15px;
+    }
+
+    figure img {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 10px 0;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .link li a {
+        font-size: 16px;
+    }
+
+    h1, h2, h3 {
+        font-size: 22px;
+    }
+
+    .tital {
+        font-size: 24px;
+    }
+}
